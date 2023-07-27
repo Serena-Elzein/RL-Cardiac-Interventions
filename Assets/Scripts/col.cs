@@ -36,7 +36,7 @@ public class col : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Cube"))
+        if (collision.gameObject.CompareTag("Segmented_Heart_Model_c"))
         {
             Vector3 collisionNormal = collision.contacts[0].normal;
             Vector3 moveDirection = rb.velocity.normalized;
